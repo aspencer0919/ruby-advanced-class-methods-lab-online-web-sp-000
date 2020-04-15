@@ -6,12 +6,12 @@ class Song
     @artist = artist
   end
 
-  def create(name)
-    @@all << name
-  end
+#  def create(name)
+#    @@all << name
+#  end
 
-  def save
-    self.class.all << self
-  end
+#  def save
+#    self.class.all << self
+#  end
 
 end
