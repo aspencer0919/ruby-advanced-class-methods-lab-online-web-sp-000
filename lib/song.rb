@@ -1,6 +1,6 @@
 class Song
   attr_accessor :artist
-  
+
   def artist=(artist)
     artist.songs << self
     @artist = artist
